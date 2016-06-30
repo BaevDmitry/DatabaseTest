@@ -9,8 +9,48 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.jezik.databasetest.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/et_name"
+        android:hint="Enter your name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_below="@+id/et_name"
+        android:id="@+id/et_college"
+        android:hint="Enter your college name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <EditText
+        android:layout_below="@+id/et_college"
+        android:layout_margin="10dp"
+        android:id="@+id/et_userid"
+        android:hint="Enter your user id"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <EditText
+        android:layout_below="@+id/et_userid"
+        android:layout_margin="10dp"
+        android:id="@+id/et_place"
+        android:hint="Enter your place"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <EditText
+        android:layout_below="@+id/et_place"
+        android:layout_margin="10dp"
+        android:id="@+id/et_number"
+        android:hint="Enter your number"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/et_number"
+        android:layout_centerHorizontal="true"
+        android:text="Next"
+        android:layout_width="150dp"
+        android:layout_height="45dp" />
 </RelativeLayout>
